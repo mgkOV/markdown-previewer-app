@@ -4,3 +4,8 @@
 @import "base/foundation-settings";
 @import "foundation";
 @include foundation-everything;
+
+// App Styles
+@import "partials/app";
+@import "partials/input";
+@import "partials/output";
