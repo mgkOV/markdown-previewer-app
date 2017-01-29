@@ -1,11 +1,11 @@
 import React from 'react';
 import TextFields from 'react-icons/lib/md/text-fields';
 
-export default (props) => {
+export default ({html}) => {
   return (
     <div>
       <TextFields className="icon"/>
-      <div className="output"></div>
+      <div className="output" dangerouslySetInnerHTML={{__html: html}}></div>
     </div>
   );
 }
