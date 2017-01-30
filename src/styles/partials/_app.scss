@@ -1,3 +1,9 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
 .icon {
   font-size: 5rem;
   color: $primary-color;
@@ -10,4 +16,8 @@
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.app {
+  min-height: 27rem;
 }
